@@ -37,7 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'weatherapp',
 ]
+
+# Add your API key
+from decouple import config
+
+# OpenWeatherMap API Key from .env file
+OPENWEATHERMAP_API_KEY = config('OPENWEATHERMAP_API_KEY')
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
