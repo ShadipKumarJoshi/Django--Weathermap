@@ -23,6 +23,6 @@ py manage.py runserver
 
 ## Environment Variables
 
-This project uses an OpenWeatherMap API key. To run the project, create a `.env` file in the root directory and add the following:
+This project uses an [OpenWeatherMap](https://openweathermap.org/) API key. To run the project, create a `.env` file in the root directory and add the following:
 
 OPENWEATHERMAP_API_KEY=your_actual_api_key_here
