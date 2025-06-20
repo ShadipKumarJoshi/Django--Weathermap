@@ -1,3 +1,4 @@
+![alt text](image.png)
 # Create a virtual environment
 python -m venv venv
 
